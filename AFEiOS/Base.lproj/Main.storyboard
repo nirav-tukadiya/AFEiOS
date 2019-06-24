@@ -39,6 +39,9 @@
                                 <state key="normal" title="Send to Flutter Module">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="validateInputs:" destination="BYZ-38-t0r" eventType="touchDown" id="0kz-bK-fxl"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nJA-kP-UcZ">
                                 <rect key="frame" x="97" y="556" width="261" height="21"/>
@@ -58,6 +61,12 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="bSend" destination="iJB-PU-cst" id="9RQ-Iv-V25"/>
+                        <outlet property="firstNumber" destination="YUf-az-09M" id="jjT-Q1-LJ2"/>
+                        <outlet property="lResult" destination="nJA-kP-UcZ" id="OiH-9l-L5g"/>
+                        <outlet property="secondNumber" destination="rXu-6G-Pw4" id="SIm-lJ-eI0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
