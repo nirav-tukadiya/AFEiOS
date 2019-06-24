@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,9 @@
 		19311AFC22C0B8EE00356580 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19311AFA22C0B8EE00356580 /* LaunchScreen.storyboard */; };
 		19311B0722C0B8EE00356580 /* AFEiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19311B0622C0B8EE00356580 /* AFEiOSTests.swift */; };
 		19311B1222C0B8EE00356580 /* AFEiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19311B1122C0B8EE00356580 /* AFEiOSUITests.swift */; };
+		9370FF08324CEDF4DFE7613B /* Pods_AFEiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFF17F4CD749B9FABE33734 /* Pods_AFEiOSTests.framework */; };
+		CBE117B4029FD1DCFDA82E62 /* Pods_AFEiOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F78AEB18683AC5C3F2D0E3 /* Pods_AFEiOSUITests.framework */; };
+		F92EA74338EBA8B3D873831B /* Pods_AFEiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D8B7A4064B2AFCF8E9AC36 /* Pods_AFEiOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00EAC6F907FD1F19BF048FD3 /* Pods-AFEiOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFEiOSUITests.release.xcconfig"; path = "Target Support Files/Pods-AFEiOSUITests/Pods-AFEiOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		19311AEE22C0B8EB00356580 /* AFEiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFEiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19311AF122C0B8EB00356580 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19311AF322C0B8EB00356580 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		19311B0D22C0B8EE00356580 /* AFEiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFEiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19311B1122C0B8EE00356580 /* AFEiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFEiOSUITests.swift; sourceTree = "<group>"; };
 		19311B1322C0B8EE00356580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26E096A024619CC9FF416050 /* Pods-AFEiOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFEiOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-AFEiOSUITests/Pods-AFEiOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		784D953B72EDD5A4469CE791 /* Pods-AFEiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFEiOS.release.xcconfig"; path = "Target Support Files/Pods-AFEiOS/Pods-AFEiOS.release.xcconfig"; sourceTree = "<group>"; };
+		7E9A05B7F6CE145F4C399ADA /* Pods-AFEiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFEiOSTests.debug.xcconfig"; path = "Target Support Files/Pods-AFEiOSTests/Pods-AFEiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3D8B7A4064B2AFCF8E9AC36 /* Pods_AFEiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFEiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9A82A621F83907A51A86BA8 /* Pods-AFEiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFEiOS.debug.xcconfig"; path = "Target Support Files/Pods-AFEiOS/Pods-AFEiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		ABFF17F4CD749B9FABE33734 /* Pods_AFEiOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFEiOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD20E3A53EBE0B560490C74C /* Pods-AFEiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFEiOSTests.release.xcconfig"; path = "Target Support Files/Pods-AFEiOSTests/Pods-AFEiOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		C7F78AEB18683AC5C3F2D0E3 /* Pods_AFEiOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFEiOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F92EA74338EBA8B3D873831B /* Pods_AFEiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9370FF08324CEDF4DFE7613B /* Pods_AFEiOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBE117B4029FD1DCFDA82E62 /* Pods_AFEiOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				19311B0522C0B8EE00356580 /* AFEiOSTests */,
 				19311B1022C0B8EE00356580 /* AFEiOSUITests */,
 				19311AEF22C0B8EB00356580 /* Products */,
+				97E5E55FDBAC9BEA7704F50B /* Pods */,
+				89FBE6AFFB36ACB1A52DCDA8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = AFEiOSUITests;
 			sourceTree = "<group>";
 		};
+		89FBE6AFFB36ACB1A52DCDA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3D8B7A4064B2AFCF8E9AC36 /* Pods_AFEiOS.framework */,
+				ABFF17F4CD749B9FABE33734 /* Pods_AFEiOSTests.framework */,
+				C7F78AEB18683AC5C3F2D0E3 /* Pods_AFEiOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97E5E55FDBAC9BEA7704F50B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9A82A621F83907A51A86BA8 /* Pods-AFEiOS.debug.xcconfig */,
+				784D953B72EDD5A4469CE791 /* Pods-AFEiOS.release.xcconfig */,
+				7E9A05B7F6CE145F4C399ADA /* Pods-AFEiOSTests.debug.xcconfig */,
+				AD20E3A53EBE0B560490C74C /* Pods-AFEiOSTests.release.xcconfig */,
+				26E096A024619CC9FF416050 /* Pods-AFEiOSUITests.debug.xcconfig */,
+				00EAC6F907FD1F19BF048FD3 /* Pods-AFEiOSUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19311B1622C0B8EE00356580 /* Build configuration list for PBXNativeTarget "AFEiOS" */;
 			buildPhases = (
+				19DAA30A22C0FB0100A039E2 /* ShellScript */,
+				6B45F97BE25688B44A3673D8 /* [CP] Check Pods Manifest.lock */,
 				19311AEA22C0B8EB00356580 /* Sources */,
 				19311AEB22C0B8EB00356580 /* Frameworks */,
 				19311AEC22C0B8EB00356580 /* Resources */,
+				D1F3B0AEE1A586301744B6A2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19311B1922C0B8EE00356580 /* Build configuration list for PBXNativeTarget "AFEiOSTests" */;
 			buildPhases = (
+				FD92DF627ADB6BB3A6B65D68 /* [CP] Check Pods Manifest.lock */,
 				19311AFE22C0B8EE00356580 /* Sources */,
 				19311AFF22C0B8EE00356580 /* Frameworks */,
 				19311B0022C0B8EE00356580 /* Resources */,
@@ -167,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19311B1C22C0B8EE00356580 /* Build configuration list for PBXNativeTarget "AFEiOSUITests" */;
 			buildPhases = (
+				0851F9C6B2A2C92F887C56DF /* [CP] Check Pods Manifest.lock */,
 				19311B0922C0B8EE00356580 /* Sources */,
 				19311B0A22C0B8EE00356580 /* Frameworks */,
 				19311B0B22C0B8EE00356580 /* Resources */,
@@ -250,6 +295,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0851F9C6B2A2C92F887C56DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AFEiOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19DAA30A22C0FB0100A039E2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build\n\"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed\n";
+		};
+		6B45F97BE25688B44A3673D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AFEiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1F3B0AEE1A586301744B6A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AFEiOS/Pods-AFEiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AFEiOS/Pods-AFEiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AFEiOS/Pods-AFEiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD92DF627ADB6BB3A6B65D68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AFEiOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		19311AEA22C0B8EB00356580 /* Sources */ = {
@@ -430,10 +578,12 @@
 		};
 		19311B1722C0B8EE00356580 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9A82A621F83907A51A86BA8 /* Pods-AFEiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2WH3CLPMD9;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = AFEiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,10 +598,12 @@
 		};
 		19311B1822C0B8EE00356580 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 784D953B72EDD5A4469CE791 /* Pods-AFEiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2WH3CLPMD9;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = AFEiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -466,6 +618,7 @@
 		};
 		19311B1A22C0B8EE00356580 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E9A05B7F6CE145F4C399ADA /* Pods-AFEiOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +639,7 @@
 		};
 		19311B1B22C0B8EE00356580 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD20E3A53EBE0B560490C74C /* Pods-AFEiOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +660,7 @@
 		};
 		19311B1D22C0B8EE00356580 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26E096A024619CC9FF416050 /* Pods-AFEiOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -525,6 +680,7 @@
 		};
 		19311B1E22C0B8EE00356580 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00EAC6F907FD1F19BF048FD3 /* Pods-AFEiOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

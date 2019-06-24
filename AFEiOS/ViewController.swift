@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Flutter
 
 class ViewController: UIViewController {
 
@@ -28,6 +29,10 @@ class ViewController: UIViewController {
     
     func sendDataToFlutterModule(first: Int, second: Int) {
         // TODO will be implemented later
+        let flutterEngine = (UIApplication.shared.delegate as? AppDelegate)?.flutterEngine;
+        let flutterViewController = FlutterViewController(engine: flutterEngine, nibName: nil, bundle: nil)!;
+        self.present(flutterViewController, animated: false, completion: nil)
+        
     }
     
     func isInputValid() -> (Int, Int){

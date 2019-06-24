@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `/Users/nirav/AndroidStudioProjects/FlutterModuleDemo/afe_flutter/.ios/Flutter/engine`)
+  - FlutterPluginRegistrant (from `/Users/nirav/AndroidStudioProjects/FlutterModuleDemo/afe_flutter/.ios/Flutter/FlutterPluginRegistrant`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "/Users/nirav/AndroidStudioProjects/FlutterModuleDemo/afe_flutter/.ios/Flutter/engine"
+  FlutterPluginRegistrant:
+    :path: "/Users/nirav/AndroidStudioProjects/FlutterModuleDemo/afe_flutter/.ios/Flutter/FlutterPluginRegistrant"
+
+SPEC CHECKSUMS:
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  FlutterPluginRegistrant: 8855ca2b426d228cb41aa6c26c0c83b8c49e3593
+
+PODFILE CHECKSUM: 4ceaba0c3f1ea02c8e919a6b0d39682c60181c10
+
+COCOAPODS: 1.7.2
