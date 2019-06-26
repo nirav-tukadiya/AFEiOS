@@ -28,13 +28,58 @@ class ViewController: UIViewController {
     }
     
     func sendDataToFlutterModule(first: Int, second: Int) {
-        // TODO will be implemented later
         let flutterEngine = (UIApplication.shared.delegate as? AppDelegate)?.flutterEngine;
         let flutterViewController = FlutterViewController(engine: flutterEngine, nibName: nil, bundle: nil)!;
-        self.present(flutterViewController, animated: false, completion: nil)
+        self.present(flutterViewController, animated: true, completion: nil)
         
+        
+        //Set up data channel to send/receive data from AFE_Flutter
+        let afeDataChannel = FlutterMethodChannel(name: "in.androidgeek.afe/data",
+                                                  binaryMessenger: flutterViewController)
+        
+        
+        //setting up method call handler to receive data from AFE_Flutter
+        afeDataChannel.setMethodCallHandler({
+            [weak self] (call: FlutterMethodCall, result: FlutterResult) -> Void in
+            
+            //receiving data from AFE_Flutter and showing results in UI
+            
+            guard call.method == "FromClientToHost" else {
+                result(FlutterMethodNotImplemented)
+                return
+            }
+            
+            flutterViewController.dismiss(animated: true, completion: nil)
+            
+            var dictonary:NSDictionary? = call.arguments as? NSDictionary
+            
+            if(call.arguments != nil){
+                
+                self?.lResult.text = "\((dictonary!["operation"] as! String)=="Add" ? "Addition" : "Multiplication"): \(dictonary!["result"]!)"
+               
+            }else{
+                self?.lResult.text = "Could not perform the operation"
+            }
+ 
+        })
+        
+        //Sending data to AFE_Flutter
+        
+        let jsonObject: NSMutableDictionary = NSMutableDictionary()
+        jsonObject.setValue(first, forKey: "first")
+        jsonObject.setValue(second, forKey: "second")
+        
+        var convertedString: String? = nil
+        do{
+            let data1 =  try JSONSerialization.data(withJSONObject: jsonObject, options: JSONSerialization.WritingOptions.prettyPrinted)
+            convertedString = String(data: data1, encoding: String.Encoding.utf8)
+        } catch let myJSONError {
+            print(myJSONError)
+        }
+        
+        afeDataChannel.invokeMethod("fromHostToClient", arguments: convertedString)
     }
-    
+
     func isInputValid() -> (Int, Int){
         
         let sFirst = firstNumber.text?.trimmingCharacters(in: .whitespacesAndNewlines) ?? ""
